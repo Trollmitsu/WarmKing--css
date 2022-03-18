@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/80f2146301.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+  <header class="siteheader">
+    <div class="logo">
+        <i class="fa-solid fa-crown"></i>
+        Warm<span class="logopart2">King</span>                
+    </div>
+    <nav>
+        <ul class="navmenu">
+            <li><a class="headeranchor" href="/index.html">Home</a></li>
+            <li><a class="headeranchor" href="#">Products</a></li>
+            <li><a class="headeranchor" href="/about.html">About</a></li>
+            <li><a class="headeranchor" href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <ul class="navicons">
+       <li><a class="navicons__headeranchor" href="#"><i class='bx bx-search-alt'></i></a></li> 
+       <li><a id="hamburgermenu" class="navicons__headeranchor"
+                     href="#"><i class='bx bx-menu' ></i></a></li> 
+       <li><a id="menuclose" class="navicons__headeranchor" 
+                    href="#"><i class='bx bx-x' ></i></a></li> 
+    </ul>
+</header>
+
+      <section class="contact" id="contact">
+        <h1>Contact us</h1>
+        <div class="contact_content">
+          
+            <div class="contact__form">
+                <form action="https://formshow.systementor.se/" method="post">
+                    
+                    <div class="contact__form__box">
+                        <i class="bx bx-user"></i>
+                        <input class="contact__form__box__input"  type="text" name="name" placeholder="name">
+                    </div>    
+                    <div class="contact__form__box">
+                        <i class="bx bx-envelope"></i>
+                        <input class="contact__form__box__input" type="text" name="email" placeholder="email">
+                    </div>    
+                    <div class="contact__form__box">
+                        <i class="bx bx-phone"></i>
+                        <input class="contact__form__box__input" type="text" name="about" placeholder="about">
+                    </div> 
+                    <div class="contact__form__box">
+                      
+                     <textarea class="contact__form__box__input" name="message" id="" cols="20" rows="10" placeholder="message" type="message"></textarea>                   
+                    </div> 
+                    <input type="submit" class="ctabutton">
+                </form>
+            </div>
+        </div>
+        <ul class="sociallinks">
+          <li>
+              <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+              </a>
+  
+          </li>
+          <li>
+              <a href="#">
+                  <i class="fab fa-instagram"></i>
+              </a>
+  
+          </li>
+          <li>
+              <a href="#">
+                  <i class="fab fa-github-alt"></i>
+              </a>
+  
+          </li>
+          
+      </ul>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
